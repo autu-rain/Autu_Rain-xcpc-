@@ -17,6 +17,6 @@ struct ODT {
         while (it->first != r) {
             it = odt.erase(it);
         }
-        odt[l] = x;
+        odt[l] = v;
     }
 };
